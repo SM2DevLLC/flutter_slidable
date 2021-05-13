@@ -98,7 +98,7 @@ class SlideAction extends ClosableSlideAction {
 
   @override
   Widget buildAction(BuildContext context) {
-    return Container(
+    return Ink(
       decoration: decoration,
       child: Center(
         child: child,
