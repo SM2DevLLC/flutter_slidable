@@ -39,6 +39,8 @@ abstract class ClosableSlideAction extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Material(
+        borderRadius: const BorderRadius.all(Radius.circular(15)),
+        clipBehavior: Clip.antiAlias,
         color: color,
         child: InkWell(
           borderRadius: const BorderRadius.all(Radius.circular(15)),
